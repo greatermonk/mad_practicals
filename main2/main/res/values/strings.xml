@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MAD Practicals</string>
+    <string name="hint_phone">Enter phone number</string>
+    <string name="hint_message">Type your message</string>
+    <string name="btn_send">Send</string>
+    <string name="received_messages">Received Messages</string>
+    <string name="permission_required">SMS Permissions Required</string>
+    <string name="permission_required_message">This app needs SMS permissions to function properly.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="sms_sent_success">SMS sent successfully</string>
+    <string name="sms_sent_failure">Failed to send SMS</string>
+    <string name="error_empty_fields">Phone number and message cannot be empty</string>
+    <string name="error_invalid_phone">Please enter a valid phone number</string>
+    <string name="email_application">Email Application</string>
+    <string name="send_email">Send Email</string>
+    <string name="receive_emails">Receive Emails</string>
+    <string name="your_email">Your Email</string>
+    <string name="enter_email">Enter Password</string>
+    <string name="enter_recipient_email">Enter Recipient Email</string>
+    <string name="subject">Subject</string>
+    <string name="email_message">Email Message</string>
+    <string name="imap_pop3_host_e_g_imap_gmail_com">IMAP/POP3 Host (e.g. imap.gmail.com)</string>
+    <string name="email_address">Email Address</string>
+    <string name="email_password">Email Password</string>
+    <string name="fetch_emails">Fetch Emails</string>
+    <string name="email_host">Email Host</string>
+    <string name="port_e_g_995">Port (e.g. 995)</string>
+    <string name="google_maps_key">AIzaSyAtNtuABNmWHUWP7ZBqO2599zetMPmFAZc</string>
+    <string name="start_location">Start Location</string>
+    <string name="end_location">End Location</string>
+    <string name="calculate_route">Calculate Route</string>
+    <string name="my_location">My Location</string>
+    <string name="route">Route</string>
+    <string name="settings">Settings</string>
+</resources>

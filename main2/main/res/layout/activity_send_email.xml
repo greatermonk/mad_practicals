@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".SendEmailActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:text="@string/send_email"
+        android:textColor="#333333"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/etEmailFrom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:autofillHints="text/Email"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/your_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#333333"
+        android:textColorHint="#A9A9A9" />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:autofillHints="xyz@gmail.com,text/Password"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/enter_email"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#333333"
+        android:textColorHint="#A9A9A9" />
+    <EditText
+        android:id="@+id/etEmailTo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:autofillHints="abc@gmail.com,text/Email"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/enter_recipient_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#333333"
+        android:textColorHint="#A9A9A9" />
+    <EditText
+        android:id="@+id/etSubject"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="This email is Regarding...,text/Subject"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/subject"
+        android:inputType="textEmailSubject"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:scrollHorizontally="true"
+        android:textColor="#333333"
+        android:textColorHint="#A9A9A9" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:autofillHints="Enter your message"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="top|start"
+            android:hint="@string/email_message"
+            android:inputType="textMultiLine"
+            android:padding="16dp"
+            android:textColor="#333333"
+            android:textColorHint="#A9A9A9" />
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:text="@string/send_email"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</LinearLayout>

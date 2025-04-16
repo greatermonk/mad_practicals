@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main11"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your_favorite_programming_language"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+    <RadioGroup
+        android:id="@+id/languageRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/kotlinRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kotlin"
+            android:layout_marginBottom="8dp" />
+        <RadioButton
+            android:id="@+id/javaRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/java"
+            android:layout_marginBottom="8dp" />
+        <RadioButton
+            android:id="@+id/pythonRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/python"
+            android:layout_marginBottom="8dp" />
+        <RadioButton
+            android:id="@+id/csharpRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/c"
+            android:layout_marginBottom="8dp" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/selectionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_none"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

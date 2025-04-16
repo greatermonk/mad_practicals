@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Practical30">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_application"
+        android:textSize="24sp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:layout_marginBottom="32dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="80dp"
+        android:backgroundTint="@color/material_dynamic_neutral99">
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:backgroundTint="@color/material_dynamic_secondary10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/send_email" />
+    <Button
+        android:id="@+id/btnReceiveEmail"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/receive_emails"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

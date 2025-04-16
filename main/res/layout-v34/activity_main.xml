@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fffff0"
+        android:layout_marginTop="2px"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        android:textColor="#F40464"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        tools:ignore="PxUsage,UnusedAttribute" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="100dp"
+        android:autofillHints="name,password,email"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/login_icon_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-40pt"
+            android:background="#023A1D"
+            android:contentDescription="Login Form"
+            android:elevation="400dp"
+            android:src="@drawable/login_icon"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:ellipsize="start"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:scrollHorizontally="true"
+            android:text="Enter Username"
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+        <EditText
+            android:layout_width="150pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@android:color/system_surface_light"
+            android:baselineAligned="false"
+            android:inputType="text"
+            android:maxLength="30"
+            android:padding="7px"
+            android:scrollHorizontally="true"
+            android:textColor="#000"
+            android:textSize="20sp"
+            tools:ignore="LabelFor,NewApi,PxUsage,UnusedAttribute" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ellipsize="start"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:scrollHorizontally="true"
+            android:text="Enter Password"
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+        <EditText
+            android:layout_width="150pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@android:color/system_surface_light"
+            android:baselineAligned="false"
+            android:inputType="textVisiblePassword"
+            android:maxLength="30"
+            android:padding="7px"
+            android:scrollHorizontally="true"
+            android:textColor="#000"
+            android:textSize="20sp"
+            tools:ignore="LabelFor,NewApi,PxUsage,UnusedAttribute" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/submit"
+            android:textSize="15sp"
+            android:focusedSearchResultHighlightColor="#0F51D5"
+            android:paddingVertical="10dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            />
+            
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

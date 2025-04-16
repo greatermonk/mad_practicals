@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background circle -->
+    <item>
+        <shape android:shape="ring"
+            android:innerRadiusRatio="3"
+            android:thicknessRatio="12"
+            android:useLevel="false">
+            <solid android:color="#222222" />
+        </shape>
+    </item>
+
+    <!-- Loading arc -->
+    <item>
+        <rotate
+            android:fromDegrees="0"
+            android:toDegrees="360">
+            <shape android:shape="ring"
+                android:innerRadiusRatio="3"
+                android:thicknessRatio="12"
+                android:useLevel="false">
+                <gradient
+                    android:type="sweep"
+                    android:centerColor="#4CAF50"
+                    android:endColor="#03A9F4"
+                    android:startColor="#00000000"
+                    android:useLevel="false" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
