@@ -1,4 +1,4 @@
-# mad_practicals
+# MAD Practicals
 
 ### Practical programs for Mobile Application Development (22617) Diploma AIML branch 6th semester.
 
